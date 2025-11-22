@@ -3,5 +3,5 @@ from .models import BlogPost
 from .serializers import BlogPostSerializer
 
 class BlogPostViewSet(viewsets.ModelViewSet):
-    queryset = BlogPost.objects.all().order_by('-created_at')
+    queryset = BlogPost.objects.all()
     serializer_class = BlogPostSerializer
