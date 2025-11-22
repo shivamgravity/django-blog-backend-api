@@ -7,10 +7,10 @@ This project implements a robus backend for a Blog application using **Django** 
 The goal of this project is to demonstrate how to build a scalable backend architecture with relational database models and API endpoints.
 
 **Key Features:**
-    * **Django Admin Interface:** A powerful GUI for managing blog posts (Create, Read, Update, Delete).
-    * **RESTful API:** Exposes blog data as JSON via `/api/posts/` for external consumption.
-    * **Database Modeling:** Uses Django ORM to define a structured `BlogPost` schema.
-    * **Browsable API:** Leverages DRF's built-in interface for easy testing and interaction.
+* **Django Admin Interface:** A powerful GUI for managing blog posts (Create, Read, Update, Delete).
+* **RESTful API:** Exposes blog data as JSON via `/api/posts/` for external consumption.
+* **Database Modeling:** Uses Django ORM to define a structured `BlogPost` schema.
+* **Browsable API:** Leverages DRF's built-in interface for easy testing and interaction.
 
 ## Prerequisites
 
